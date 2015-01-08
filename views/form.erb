@@ -1,0 +1,34 @@
+<h1>ROCK PAPER SCISSOR</h1>
+<form action='/result'>
+  <!--<div class="form-group">
+    <label for="player_1">player one go!</label>
+    <input id="player_1" name="player_1" class="form-control" type="text">
+  </div>
+   <div class="form-group">
+    <label for="player_2">player two go!</label>
+    <input id="player_2" name="player_2" class="form-control" type="text">
+  </div> -->
+
+<div class="form-group">
+<label for="player_1">player one go!</label>
+<select id="player_1" name="player_1" class="form-control">
+<option value="rock">rock</option>
+<option value="paper">paper</option>
+<option value="scissors">scissors</option>
+</select>
+</div>
+
+  <div class="form-group">
+  <label for="player_2">player two go!</label>
+  <select id="player_2" name="player_2" class="form-control">
+  <option value="">       </option>
+  <option value="rock">rock</option>
+  <option value="paper">paper</option>
+  <option value="scissors">scissors</option>
+  </select>
+  <br>
+  (Leave player 2 blank for AI opponent)
+  </div>
+
+  <button type="submit" class="btn">Go!</button>
+</form>
