@@ -1,3 +1,7 @@
+#01/07/2015 Matt Terrill and Dan Wright
+#Epicodus
+#Use for stuff if you want, I guess.
+
 require('sinatra')
 require('sinatra/reloader')
 require('./lib/rock_paper_scissors')
