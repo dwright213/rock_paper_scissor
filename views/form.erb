@@ -1,34 +1,45 @@
-<h1>ROCK PAPER SCISSOR</h1>
-<form action='/result'>
-  <!--<div class="form-group">
-    <label for="player_1">player one go!</label>
-    <input id="player_1" name="player_1" class="form-control" type="text">
-  </div>
-   <div class="form-group">
-    <label for="player_2">player two go!</label>
-    <input id="player_2" name="player_2" class="form-control" type="text">
-  </div> -->
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>Rock! Paper! Scissors!</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+    <form action="/result">
+      <div class="container-fluid">
+        <div class="col-md-4 col-md-offset-3">
+          <h1>
+          Rock Paper Scissor(s)!
 
-<div class="form-group">
-<label for="player_1">player one go!</label>
-<select id="player_1" name="player_1" class="form-control">
-<option value="rock">rock</option>
-<option value="paper">paper</option>
-<option value="scissors">scissors</option>
-</select>
-</div>
+          </h1>
+          <div class="form-group">
+          <form action='/result'>
+          <label for="player_1">player one go!</label>
+          <select id="player_1" name="player_1" class="form-control">
+          <option value="rock">rock</option>
+          <option value="paper">paper</option>
+          <option value="scissors">scissors</option>
+          </select>
+          </div>
 
-  <div class="form-group">
-  <label for="player_2">player two go!</label>
-  <select id="player_2" name="player_2" class="form-control">
-  <option value="">       </option>
-  <option value="rock">rock</option>
-  <option value="paper">paper</option>
-  <option value="scissors">scissors</option>
-  </select>
-  <br>
-  (Leave player 2 blank for AI opponent)
-  </div>
+            <div class="form-group">
+            <label for="player_2">player two go!</label>
+            <select id="player_2" name="player_2" class="form-control">
+            <option value="">       </option>
+            <option value="rock">rock</option>
+            <option value="paper">paper</option>
+            <option value="scissors">scissors</option>
+            </select>
+            <br>
+            (Leave player 2 blank for AI opponent)
+            </div>
 
-  <button type="submit" class="btn">Go!</button>
-</form>
+            <button type="submit" class="btn">Go!</button>
+          </form>
+          <h3> </h3>
+        </div>
+        </div>
+      <br>
+  </body>
+ </html>

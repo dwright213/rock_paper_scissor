@@ -28,11 +28,11 @@ get('/result') do
 
 #chooses displayed victory text based on result
     if @result == true
-      @victory = ("player 1 wins with " + @player_1)
+      @victory = ("player 1 wins with " + @player_1 + ". <br><small>the infinite might of " + @player_1 + " was ultimately too much for poor, simple " + @player_2 + ".</small>")
     elsif @result == false
-      @victory = ("player 2 wins with " + @player_2)
+      @victory = ("player 2 wins with " + @player_2 + ". <br><small>the infinite might of " + @player_2 + " was ultimately too much for poor, simple " + @player_1 + ".</small>")
     else
-      @victory = ("It's a tie, " + @player_1 + " is the same as " + @player_2)
+      @victory = ("It's a tie, " + @player_1 + " is the same as " + @player_2 + ". <br><small>You two really need to diversify your tactics.</small>")
   end
 
   erb(:result)
