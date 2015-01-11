@@ -1,3 +1,3 @@
-# rock_paper_scissor
-rock and paper and also scissors
-This qualifies as a change
+rock_paper_scissors.
+
+That classic strategy game, reimagined as a very web 2.0 looking application, rounded corners and all!
